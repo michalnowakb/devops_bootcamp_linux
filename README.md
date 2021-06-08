@@ -28,7 +28,7 @@
 ### Connecting to SSH directory on Windows
 - Navigate to C:\Users\user_name\.ssh  by using command `cd ~/.ssh`
 - Use `ls` command to check if you have a file called "id_rsa.pub" is under that directory
-- If not we can generate new SSH key using `ssh-keygen -t rsa -b 4096 -C [example@email.com]
+- If not we can generate new SSH key using `ssh-keygen -t rsa -b 4096 -C [example@email.com]`
 - Now if we will check files under SSH directory we should be able to see file called "id_rsa.pub"
 - To see content of that file we can type `cat id_rsa.pub`
 
